@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+}
+
+.app-img {
+    width: 100%;
+    border-radius: 2em;
+    
+}
+
+h1 {
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 4rem;
+    position: relative;
+    top: -2.1rem;
+}
