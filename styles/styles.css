@@ -1,48 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: black;
-    height: 100%;
+  background-color: black;
+  height: 100%;
 }
 
 main {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-link {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    width: 15rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 15rem;
 }
 
 .app-img {
-    width: 100%;
-    border-radius: 2em;
-    
+  width: 100%;
+  border-radius: 2em;
+  box-shadow: 0 0 0.7em rgb(201, 248, 201);
+  position: relative;
+  top: -2rem;
 }
 
 h1 {
-    color: white;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 4rem;
-    position: relative;
-    top: -2.1rem;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 4rem;
+  position: relative;
+  top: -4.1rem;
+  text-shadow: 0 0 0.2em rgb(130, 130, 130);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  padding-bottom: 25%;
+  gap: 14em;
+}
+
+.icons a {
+  padding: 0;
+  width: 21%;
+}
+
+.app-logo {
+  width: 14rem;
+}
+
+.privacy-text {
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.privacy-text:hover {
+  text-decoration: underline;
 }
