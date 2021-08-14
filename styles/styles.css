@@ -83,3 +83,23 @@ h1 {
 .privacy-text:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .icons {
+    flex-direction: column;
+    gap: 10rem;
+    top: 110%;
+  }
+
+  .icons a {
+    position: relative;
+    top: 20%;
+  }
+
+  .privacy-text {
+    position: absolute;
+    bottom: -3rem;
+    align-self: center;
+    min-width: 100%;
+  }
+}
